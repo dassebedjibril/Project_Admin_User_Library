@@ -277,7 +277,7 @@ class Utilisateur:
     @staticmethod
     def emprunter(nom_livre):
         if nom_livre not in LIVRE_:
-            print("Nous n'avons ce livre dans la bibliothèque")
+            print("Nous n'avons pas ce livre dans la bibliothèque et sacher qe vous pouvez prendre jusqu'a 5 livres")
             print('--------------------------Voici la liste des livres disponibles------------------------------')
             print(LIVRE_)
         else:
